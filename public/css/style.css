@@ -1,8 +1,8 @@
 body {
-  font-family: "Plus Jakarta Sans", sans-serif !important;
-  display: flex !important;
-  flex-direction: column !important;
-  min-height: 100vh !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
 }
 
 .container {
@@ -34,7 +34,9 @@ body {
     text-decoration: underline;
 }
 
-.f-info-socials, .f-info-links, .f-info-brand {
+.f-info-socials,
+.f-info-links,
+.f-info-brand {
     width: 100%;
     vertical-align: middle;
     display: flex;
@@ -65,7 +67,7 @@ body {
 
 .card-img-top {
     border-radius: 1rem !important;
-    width: 100% !important ;
+    width: 100% !important;
     object-fit: cover !important;
 }
 
@@ -82,7 +84,7 @@ body {
 }
 
 /* card effect */
-.card-img-overlay{
+.card-img-overlay {
     opacity: 0;
 }
 
@@ -108,12 +110,18 @@ body {
     height: 30vh;
 }
 
-.btns{
+.btns {
     display: flex;
 
 }
 
-.show-card{
+.show-card {
     padding-left: 0;
     padding-right: 0;
+}
+
+/* map */
+#map {
+ height: 400px;
+ width: 80vh;
 }
